@@ -38,6 +38,7 @@
 
         </script>
     	{% elsif block.settings.vtype == 'vimeo' %}
+<script defer src="https://f.vimeocdn.com/js/froogaloop2.min.js"></script>
         <script>
           $(function() { 
             var ifid = '#vimeo-player-{{ forloop.index }}';
